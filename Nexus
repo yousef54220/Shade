@@ -1,4 +1,3 @@
--- تغيير الاسم
 local args = {
     "RolePlayName",
     "< NEXUS HUB USER >"
@@ -32,10 +31,10 @@ local InfoTab = Window:MakeTab({ Title = "المطور", Icon = "rbxassetid://15
 
 
 InfoTab:AddSection({ "Script Information" })
-InfoTab:AddParagraph({ "المطور / المترجم:", "ismailhub." })
-InfoTab:AddParagraph({ "تيك توك:", ".ismail0053" })
-InfoTab:AddParagraph({ "You are using:", "ismail  hub v1.3" })
-InfoTab:AddParagraph({"Your executor:", executor})
+InfoTab:AddParagraph({ "المطور / المترجم: "Shadow" })
+InfoTab:AddParagraph({ "تيك توك:", "shadowdev71" })
+InfoTab:AddParagraph({ "You are using:", "NEXUS" })
+InfoTab:AddParagraph({"Your executor: krnl/delta", executor})
 
 InfoTab:AddSection({ "اعادة الدخول" })
 InfoTab:AddButton({
@@ -46,7 +45,7 @@ InfoTab:AddButton({
     end
 })
 
-local TrollTab = Window:MakeTab({ Title = "تخريب", Icon = "rbxassetid://13364900349" })
+local TrollTab = Window:MakeTab({ Title = "", Icon = "rbxassetid://13364900349" })
 
 
 TrollTab:AddSection({ "هالة لابواب" })
