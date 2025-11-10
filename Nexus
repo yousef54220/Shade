@@ -1,31 +1,31 @@
-local args1 = {
-    [1] = "RolePlayName",
-    [2] = "ismail V1 سكربت",
-    [3] = "Aqua" -- لون الاسم
+-- تغيير الاسم
+local args = {
+    "RolePlayName",
+    "< NEXUS HUB USER >"
 }
-game:GetService("ReplicatedStorage").RE:FindFirstChild("1RPNam1eTex1t"):FireServer(unpack(args1))
+game:GetService("ReplicatedStorage"):WaitForChild("RE"):WaitForChild("1RPNam1eTex1t"):FireServer(unpack(args))
 
--- إعداد وصف رول بلاي مع اللون
-local args2 = {
-    [1] = "RolePlayBio",
-    [2] = "سكربت المطور اسماعيل",
-    [3] = "Red" -- لون الوصف
+-- تغيير لون الاسم (بنفسجي)
+local args = {
+    "PickingRPNameColor",
+    Color3.fromRGB(128, 0, 255)
 }
-game:GetService("ReplicatedStorage").RE:FindFirstChild("1RPNam1eTex1t"):FireServer(unpack(args2))
+game:GetService("ReplicatedStorage"):WaitForChild("RE"):WaitForChild("1RPNam1eColo1r"):FireServer(unpack(args))
 
 
 wait()
 
 game.Players.LocalPlayer.Character:FindFirstChild("Head"):Destroy()
-local xenolib = loadstring(game:HttpGet("https://raw.githubusercontent.com/Xeno9995/Xeno-hub/refs/heads/main/XENO%20PRO%20LIBRARY%20NEW"))()
-local Window = xenolib:MakeWindow({
-  Title = "ismailHub | BROOKHAVEN",
-  SubTitle = "by sukuna",
-  SaveFolder = "test | ismail hub v1.0"
+redzlib = loadstring(game:HttpGet("https://raw.githubusercontent.com/yousef54220/script-tash/refs/heads/main/Nexus%20gui%3F"))()
+Window = redzlib:MakeWindow({
+    Title = "NEXUS HUB",
+    SubTitle = "by Shadow",
+    SaveFolder = "NEXUS"
 })
+
 Window:AddMinimizeButton({
-    Button = { Image = "rbxassetid://85545622294922", BackgroundTransparency = 0 },
-    Corner = { CornerRadius = UDim.new(0.6, 1) },
+    Button = {Image = "rbxassetid://8786438895", BackgroundTransparency = 0},
+    Corner = {CornerRadius = UDim.new(35, 1)}
 })
 local InfoTab = Window:MakeTab({ Title = "المطور", Icon = "rbxassetid://15309138473" })
 
