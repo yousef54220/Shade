@@ -38,7 +38,7 @@ game.StarterGui:SetCore("SendNotification", {
     Duration = 5;
 })
 
-loadstring(game:HttpGet(("https://raw.githubusercontent.com/yousef54220/script-tash/refs/heads/main/alfa%20gui%20by%20Shadow")))()
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/youssefhesham542/Y2-Hub/refs/heads/main/alfaguibyshadow")))()
 MakeWindow({
   Hub = {
     Title = "SCRIPT ALFA V1.5",
@@ -4004,3 +4004,4 @@ local Toggle = AddToggle(Main, {
     Default = false,
     Callback = onNoclipToggle
 })
+-- script alfa It was leaked by Shadow and khalifa
